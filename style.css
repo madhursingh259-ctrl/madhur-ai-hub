@@ -1538,3 +1538,60 @@ ul {
     font-size: 0.74rem;
   }
 }
+/* Madhur AI Hub - Responsive Owner Profile */
+.owner-profile {
+  text-align: center;
+  padding: 35px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.owner-photo-frame {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 14px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #00d4ff;
+  box-sizing: border-box;
+}
+
+.owner-photo-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+.owner-profile h2 {
+  margin: 10px 0 6px;
+  font-size: 24px;
+  overflow-wrap: anywhere;
+}
+
+.owner-profile p {
+  margin: 0;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .owner-profile {
+    padding: 25px 12px;
+  }
+
+  .owner-photo-frame {
+    width: 110px;
+    height: 110px;
+  }
+
+  .owner-profile h2 {
+    font-size: 21px;
+  }
+
+  .owner-profile p {
+    font-size: 14px;
+  }
+}
